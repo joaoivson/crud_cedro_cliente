@@ -1,0 +1,65 @@
+<mat-card>
+    <mat-card-title>
+        Alterar Cliente
+    </mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome" [(ngModel)]="product.name" name="name">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="CPF" [(ngModel)]="product.cpf" name="cpf" ngModel pattern="[0-9]{8}"
+                mask='000.000.000-00'>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="CEP" [(ngModel)]="product.cep" name="cep" ngModel pattern="[0-9]{8}"
+                mask='00.000.000'>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Endereço" [(ngModel)]="product.logradouro" name="logradouro">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Bairro" [(ngModel)]="product.bairro" name="bairro">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Cidade" [(ngModel)]="product.localidade" name="localidade" ngModel required>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-select placeholder="UF" [(ngModel)]="product.uf" name="uf" ngModel required>
+                <mat-option value="AC">Acre</mat-option>
+                <mat-option value="AL">Alagoas</mat-option>
+                <mat-option value="AP">Amapá</mat-option>
+                <mat-option value="AM">Amazonas</mat-option>
+                <mat-option value="BA">Bahia</mat-option>
+                <mat-option value="CE">Ceará</mat-option>
+                <mat-option value="DF">Distrito Federal</mat-option>
+                <mat-option value="ES">Espírito Santo</mat-option>
+                <mat-option value="GO">Goiás</mat-option>
+                <mat-option value="MA">Maranhão</mat-option>
+                <mat-option value="MT">Mato Grosso</mat-option>
+                <mat-option value="MS">Mato Grosso do Sul</mat-option>
+                <mat-option value="MG">Minas Gerais</mat-option>
+                <mat-option value="PA">Pará</mat-option>
+                <mat-option value="PB">Paraíba</mat-option>
+                <mat-option value="PR">Paraná</mat-option>
+                <mat-option value="PE">Pernambuco</mat-option>
+                <mat-option value="PI">Piauí</mat-option>
+                <mat-option value="RJ">Rio de Janeiro</mat-option>
+                <mat-option value="RN">Rio Grande do Norte</mat-option>
+                <mat-option value="RS">Rio Grande do Sul</mat-option>
+                <mat-option value="RO">Rondônia</mat-option>
+                <mat-option value="RR">Roraima</mat-option>
+                <mat-option value="SC">Santa Catarina</mat-option>
+                <mat-option value="SP">São Paulo</mat-option>
+                <mat-option value="SE">Sergipe</mat-option>
+                <mat-option value="TO">Tocantins</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)=" updateProduct()" color="primary">
+        Atualizar
+    </button>
+
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+</mat-card>

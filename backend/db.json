@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "name": "RUBENITA MARIA MONTEIRO DE LIMESILVA",
+      "cpf": "11111111111",
+      "cep": "99999999",
+      "logradouro": "AV LEANDRO BARRETO",
+      "bairro": "JARDIM SAO PAULO",
+      "localidade": "RECIFE",
+      "uf": "PE",
+      "id": 1
+    },
+    {
+      "name": "JOAO IVSON ALVES DA SILVA",
+      "cpf": "77777777777",
+      "cep": "88888888",
+      "logradouro": "AV DR JOSE RUFINO",
+      "bairro": "AREIAS",
+      "localidade": "RECIFE",
+      "uf": "PE",
+      "id": 2
+    },
+    {
+      "name": "ILKA AMELIA ALVES DA SILVA",
+      "cpf": "99999999999",
+      "cep": "66666666",
+      "logradouro": "RUA DAS PAULAS",
+      "bairro": "BOA VISTA",
+      "localidade": "RECIFE",
+      "uf": "PE",
+      "id": 3
+    },
+    {
+      "name": "ISABELA ISIS ALVES DA SILVA",
+      "cpf": "55555555555",
+      "cep": "66666666",
+      "logradouro": "RUA DE CEROLAS",
+      "bairro": "MADALENA",
+      "localidade": "RECIFE",
+      "uf": "PE",
+      "id": 4
+    },
+    {
+      "name": "JOAO CABOCLO DA SILVA FILHO",
+      "cpf": "33333333333",
+      "cep": "66666666",
+      "logradouro": "RUA 48",
+      "bairro": "CASA FORTE",
+      "localidade": "RECIFE",
+      "uf": "PE",
+      "id": 5
+    },
+    {
+      "name": "MARIA JOSE ALVES DA SILVA",
+      "cpf": "44444444444",
+      "cep": "22222222",
+      "logradouro": "RUA DOS MILAGRES",
+      "bairro": "SITIO NOVO",
+      "localidade": "OLINDA",
+      "uf": "PE",
+      "id": 6
+    }
+  ]
+}
